@@ -38,16 +38,16 @@ foreach ($_SERVER as $key => $value) {
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', $connectstr_dbname);
+define('DB_NAME', 'bikestore');
 
 /** MySQL database username */
-define('DB_USER', $connectstr_dbusername);
+define('DB_USER', 'admin-queen@mysqlguccibox');
 
 /** MySQL database password */
-define('DB_PASSWORD', $connectstr_dbpassword);
+define('DB_PASSWORD', 'Elijah@080678');
 
 /** MySQL hostname */
-define('DB_HOST', $connectstr_dbhost);
+define('DB_HOST', 'mysqlguccibox.mysql.database.azure.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
